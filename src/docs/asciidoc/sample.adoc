@@ -1,6 +1,6 @@
 = Sample Asciidoctor
 jnorthr <james.northrop@orange.fr>
-V1.1, Updated 25 Mar.2017: Recent Finds Later Reading
+V1.1, Updated 25 Mar.2017: DoctorPepper Notes
 :sectanchors:
 :sectlinks:
 :icons: font
@@ -16,25 +16,34 @@ image::divider3.png[align=center, title-align=center]
 
 == DropBox or Google Drive Enabled ?
 
-This trick works nicely if you have a shared drive service like *Dropbox*, etc. and all your internal systems use the same *Dropbox*,etc. account.
+This trick works nicely if you have a shared drive service like *Dropbox*, or *Google Drive* etc. and all your internal systems use the same *Dropbox*,etc. account.
 
 I have six systems in my place. All of them hooked to same remote drive account. This way i can work on any of my internal systems and
 still use/keep documentation and code safely and visibly on *all* my systems.
 
-On one of my least-used systems, did a *cd* into the root of this folder, then ran the following:
+On one of my least-used systems, did the following:
 
-.gradle continuous doctor translation
+.Gradle Continuous Doctor Translation
 [source,bash]
 ----
-gradle -t asciidoctor
+cd ~
+git clone https://github.com/jnorthr/DoctorPepper.git
+cd ~/Dropbox/DoctorPepper
+gradlew -t asciidoctor
 ----
+
+The *-t* option keeps gradle running in continuous mode so now any changes i make to any asciidoctor files are near-instantly
+translated for me.
+
+''''
 
 == Update from A Different System
 
-Wen
-More stuff here. Did this `sample.html` update from another machine on my Dropbox account?
+Went to a second system in my place. Updated this *Dropbox/DoctorPepper/src/docs/asciidoc/sample.adoc* file with:
 
-Will a new sample.html show up on this machine too ?
+More stuff here. Did this `sample.html` update from another machine show up on my *Dropbox* account?
+
+Will a new *sample.html* show up on this machine too ?
 
 ''''
 
@@ -44,21 +53,33 @@ IMPORTANT: NO ! Why not ? Because screen saver on my gradle system put it to sle
 
 == Don't Allow Sleeping on The Job
 
-If the server or desktop running your `gradle -t asciidoctor` continuous process has it's screen saver
-turned on, then you will only have a continuous doctor translation while it does not sleep.
+If the server or desktop running your `gradlew -t asciidoctor` continuous process has it's screen saver
+turned on, then you will only have continuous doctor translation while it does not sleep.
 
 With full-time running, my asciidoctor tranlation process will nicely convert any/every change i make to my *.adoc*,etc.
  documents within the *src/docs/asciidoc* folder. 
 
+''''
+
 == Goal
 
 What does this achieve ? Well anywhere on any of my six systems, i can modify my documentation and the _kind-of_
-remote server will produce a new `*.html* set of result. Then i can have one or several browsers viewing the
-results, say in folder `Asciidoctor/build/docs` for my revised *sample.html*.
+remote server will produce a new `*.html* set of results. Then i can have one or several browsers viewing the
+results of files i'm editing, say in folder *DoctorPepper/build/docs* for my revised *sample.html*.
 
 While doing this page, i had my text editor open, fixed some spelling mistakes and only did an editor save, like *Ctrl-S*
-and toggled over to my window with the browser open to the results page and did a browser re-fresh! *Bang!*
+and toggled over to my window with the browser open to this *sample.html* page and did a browser re-fresh! *Bang!*
+
+NOTE: Near-instant Translation
 
 Then i only click browser refresh to see the new view and this saves me the bother of copying 
 everything up to my CloudFoundry target. *Nice ;-)*
+
+TIP: Just coping new *.adoc* files into *src/docs/asciidoc* will appear in the output folder too !
+
+''''
+
+IMPORTANT: Enjoy ;-D
+
+''''
   
