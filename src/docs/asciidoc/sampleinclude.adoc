@@ -1,0 +1,3 @@
++++
+<b>This is a sample include:: directive</b>
++++

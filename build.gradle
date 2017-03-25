@@ -1,0 +1,45 @@
+// gradle build script to continuously translate asciidoctor documents into html;
+// cd ~/DoctorPepper
+// gradlew -t asciidoctor
+// assumes you are running something like Dropbox or Google Drive, but also could be run locally
+// from a second terminal session;
+// All output html is written to gradle project folder named build/docs
+// All input comes from the src/docs/asciidoc folder
+
+allprojects{
+	task hello << {task-> println "I'm $task.project.name"}
+}
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'org.asciidoctor:asciidoctor-gradle-plugin:1.5.3'
+    }
+}
+
+apply plugin: 'org.asciidoctor.convert'
+
+asciidoctor {
+  outputDir = file('build/docs')
+  separateOutputDirs=false  
+  backends = ['html5','docbook']
+  
+  resources {
+    from('src/resources/images') {}
+    into './images'
+  }
+
+
+  attributes 'source-highlighter': 'coderay',
+                toc                 : 'right',
+                idprefix            : '',
+                idseparator         : '-'
+                
+} // end of asciidoctor
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '3.4' 
+}

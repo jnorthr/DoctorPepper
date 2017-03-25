@@ -1,0 +1,19 @@
+// File: _attrs.adoc
+:icons: font
+:sectlinks:
+:toc: right
+:imagesdir: images/
+:linkattrs:
+// Document specific and general custom content files are used:
+:docinfo2:
+// Include general custom content files:
+//:docinfo1:
+// Include document specific content files:
+//:docinfo:
+// In generated HTML this is transformed to <meta name="description" content="..."/>
+:description: Sample document with custom header and footer parts.
+// In generated HTML this is transformed to <meta name="keywords" content="..."/>
+:keywords: links,html,url
+:blogger_url: http://jnorthr.wordpress.com
+:blogger_tag: Awesome Links to Stuff To Read
+:author: jnorthr

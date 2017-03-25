@@ -1,0 +1,760 @@
+= More Internet Links
+jnorthr <james.northrop@orange.fr>
+V0.7, Updated 22 Mar.2017: Recent Finds Online for Later Reading
+include::_attrs.adoc[]
+:sectanchors:
+:sectlinks:
+:toc: right
+:icons: font
+:imagesdir: ./images
+
+== Ajax
+
+.Examples of using Ajax in Action
+[.thumb]
+image::ss3.png[Ajax Daddy,400, link="http://www.betterprogramming.com/ajaxdaddy-com.html",title="Ajax Daddy"]
+  
+
+== Asciidoctor
+
+ * http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/#images[Qwik Ref manual]
+ * http://asciidoctor.org/docs/asciidoc-writers-guide/#titles-titles-titles[Asciidoc Writers Guide] - a gentle introduction to AsciiDoc, a plain text documentation syntax and processor. 
+ * http://asciidoctor.org/docs/user-manual/#images[Asciidoctor User Manual] - Asciidoctor is a fast text processor and publishing toolchain for converting AsciiDoc content to HTML5, EPUB3, PDF, DocBook 5 (or 4.5) slidedecks and other formats. 
+ * https://leanpub.com/awesomeasciidoctornotebook/read#leanpub-auto-turn-section-titles-into-links[MrHaki's Leanpub Asciidoctor Write-up] - This book is intended to browse through the subjects. You should be able to just open the book at a random page and learn more about Asciidoctor. 
+ * https://github.com/robertpanzer/asciidoctorj-pdf[Robert Panzer's asciidoctorj-pdf GitHub] - AsciidoctorJ PDF bundles the Asciidoctor PDF RubyGem (asciidoctor-pdf) so it can be loaded into the JVM using JRuby. This is source code.
+ * https://leanpub.com/awesomeasciidoctornotebook/read[MrHaki's Asciidoctor Notebook]
+ * http://mrhaki.blogspot.fr/2014/06/awesome-asciidoc-use-link-attributes.html[Use Link Attributes]
+ * https://leanpub.com/awesomeasciidoctornotebook/read[Read Awesome Asciidoctor Notebook | Leanpub]
+ * http://ditaa.sourceforge.net/[ditaa]
+ * http://mrhaki.blogspot.fr/2015/04/awesome-asciidoctor-adding-custom.html[Awesome Asciidoctor: Adding Custom Content to Head and Footer - Messages from mrhaki]
+ * https://leanpub.com/awesomeasciidoctornotebook/read[Read Awesome Asciidoctor Notebook | Leanpub]
+ * http://ditaa.sourceforge.net/[ditaa charts in a/d]
+ * http://mrhaki.blogspot.fr/2015/04/awesome-asciidoctor-adding-custom.html[Awesome Asciidoctor: Adding Custom Content to Head and Footer - Messages from mrhaki]
+ 
+=== Strike-Thru Syntax
+
+Something like :
+
+[source,asciidoctor]
+----
+[line-through]#delete me#
+<or>
+-delete me-
+----
+
+''''
+
+== BootStrap 4
+
+ * https://blackrockdigital.github.io/startbootstrap-sb-admin/bootstrap-elements.html#about[All Bootstrap Elements] can be seen here as demo samples.
+ * https://blackrockdigital.github.io/startbootstrap-sb-admin/forms.html[Forms] - code samples of how forms work in HTML GUIs.
+ * https://blackrockdigital.github.io/startbootstrap-sb-admin/[Admin Consoles] - samples of what nice HTML administrator consoles can look like using Bootstrap pieces.
+ * https://startbootstrap.com/template-overviews/sb-admin/[Nice bootstrap admin landing pg] - A Bootstrap 3 admin theme with powerful jQuery plugins to extend the functionality of the Bootstrap framework.
+ * https://www.bootstrapzero.com/templates/landing[Free bootstrap themes] - downloadable sample landing pages for Bootstrap.
+ * http://vegibit.com/bootstrap-modal-form-examples/[Modal forms in bootstrap] - HTML markup showing how To Trigger a Modal in Boostrap 4.
+ * http://formvalidation.io/examples/ajax-submit/[Using Ajax to submit forms] - JQuery Code Samples
+ * https://startbootstrap.com/template-overviews/landing-page/[My Favorite Landing Page] - https://startbootstrap.com/template-categories/all/[or see them all here.]
+ * https://www.bootstrapzero.com/templates/landing[25 Free Landing Pages]
+ 
+''''
+
+== Cassandra CQL
+
+ * http://cassandra.apache.org/doc/latest/getting_started/index.html[Get Started]
+ * http://cassandra.apache.org/doc/latest/cql/index.html#cql[Cassdra Query Lang.] 
+
+''''
+
+== Cloud Foundry
+
+ * https://console.run.pivotal.io/tools[Pivotal Web Services]
+ * http://www.slideshare.net/andypiper/cloud-foundry-a-lightning-introduction?related=3[Cloud Foundry - A Lightning Introduction]
+ * https://www.cloudfoundry.org/[Home - Cloud Foundry]
+ * https://www.youtube.com/watch?t=72&v=skvvYul9AEc[Cloud Foundry Summit 2015 Intro Video - YouTube]
+ * https://console.run.pivotal.io/tools[Pivotal Web Services]
+ * https://github.com/cloudfoundry/cli[cloudfoundry/cli · GitHub]
+ * https://console.run.pivotal.io/tools[Pivotal Web Services]
+ * http://www.slideshare.net/andypiper/cloud-foundry-a-lightning-introduction?related=3[Cloud Foundry - A Lightning Introduction] 
+ * https://www.cloudfoundry.org/[Home - Cloud Foundry]
+ * https://www.youtube.com/watch?t=72&v=skvvYul9AEc[Cloud Foundry Summit 2015 Intro Video - YouTube]
+ * https://console.run.pivotal.io/tools[Pivotal Web Services]
+ * https://github.com/cloudfoundry/cli[cloudfoundry/cli · GitHub]
+
+''''
+
+== COBOL Samples
+
+ * http://www.csis.ul.ie/cobol/examples/#Selection[COBOL Samples] - just in case, here are a variety of code samples using MicroFocus Cobol;
+
+''''
+
+== Code Coverage
+
+ * http://rants.broonix.ca/java-code-coverage-with-gradle-and-jacoco-2/[Jacoco Review]
+ 
+''''
+
+== CSS Tricks
+
+ * https://css-tricks.com/snippets/css/drop-caps/[CSS Drop Caps] - several ways to make a Drop Capital Letter as first letter of a paragraph.
+ * http://www.hongkiat.com/blog/css-margin-auto/[How Margins:Auto] help to layout a web page.
+ * http://www.htmlgoodies.com/primers/html/article.php/3888236[Drop Caps]
+ * https://www.w3schools.com/cssref/css_colors.asp[HTML Colors in Hex]
+ 
+''''
+
+== Deploy To CloudFoundry from Travis
+
+ * http://ecmendenhall.github.io/blog/blog/2013/05/28/two-travis-ci-solutions/[Two Travis Solutions]
+ * https://docs.travis-ci.com/user/deployment/cloudfoundry/[CloudFoundry deploy] from Travis C/I in *.travis.yml* as they explain the amazing ability to deploy directly to CloudFoundry after a successful build on Travis CI.
+ * https://github.com/travis-ci/dpl/issues/512[Travis Deploy] - issues for CloudFoundry; `Travis deploy cloud foundry Incorrect Usage`
+ * https://github.com/travis-ci/dpl/issues/[Here are the latest issues with *Travis C/I*]
+ 
+.travis.yml markup 
+----
+ deploy:
+   edge: true
+   provider: cloudfoundry
+   username: hulk_hogan@example.com
+   password: supersecretpassword
+   api: https://api.run.pivotal.io
+   organization: myawesomeorganization
+   space: staging
+----
+
+''''
+
+== Firefox Stuff
+
+ * https://www.mozilla.org/en-US/firefox/help/[Help and Tutorials]
+ * https://www.mozilla.org/en-US/firefox/customize/[Customize Firefox]
+ * https://www.mozilla.org/en-US/contribute/[Get Involved]
+ * https://www.mozilla.org/en-US/about/[About Us]
+ * https://www.mozilla.org/en-US/firefox/central/[Getting Started]
+
+''''
+
+== Gaelyk
+
+ * http://gaelyk.appspot.com/tutorial/views-and-controllers#gaelykBindings[Gaelyf Bindings on Views and Controllers] plus how it all works on *Google App Engine.*
+ * https://globalgateway.wordpress.com/2010/10/21/simple-crud-with-gaelyk/[Simple CRUD with Gaelyk] - nice groovy code samples using Gaelyk to do CRUD activity on *Google App Engine.*
+
+
+''''
+
+== GitHub
+
+ * https://gun.io/blog/how-to-github-fork-branch-and-pull-request/[HOW TO GITHUB: FORK, BRANCH, TRACK, SQUASH AND PULL REQUEST]; This guide will teach you how to properly contribute to open source projects on GitHub.
+ * https://help.github.com/articles/connecting-with-third-party-applications/[Requesting oauth permission for Github] - You can connect your GitHub identity to third-party applications using OAuth. Here's how.
+ * https://gitlab.com/users/sign_in[GitLab.com] - offers free unlimited (private) repositories and unlimited collaborators.
+
+''''
+
+== Google App Engine
+
+ * http://gaelyk.appspot.com/tutorial/app-engine-shortcuts#files-misc[Gaelyk specific shortcuts for Google App Engine ]
+ * https://console.cloud.google.com/appengine/versions?project=ietf-document-index&serviceId=default[IETF Document Index] on AppEngine
+ * https://ietf-document-index.appspot.com/[Live IETF Index] - Dated 2012
+ * https://books.google.fr/books?id=zFtuXftEKz0C&pg=PA15&dq=com.google.appengine.api.datastore+key&hl=en&ei=We_gTvazA8rD8QOVveHQBA&sa=X&oi=book_result&ct=result#v=onepage&q=com.google.appengine.api.datastore%20key&f=false[Beginning Java Google App Engine] - this book offers you a Java approach to beginning Google App Engine.
+ * https://cloud.google.com/appengine/docs/java/config/webxml?csw=1[Google App Engine Deployment Descriptor: web.xml] - Java web applications use a deployment descriptor file named web.xml to determine how URLs map to servlets.
+ * http://www.ibm.com/developerworks/java/library/j-javadev2-1/index.html[Hello Google App Engine] from IBM DeveloperWorks; Quick Web application development leveraging Groovy, Eclipse, and JDO.
+ * https://cloud.google.com/appengine/kb/?csw=1#cron[Cron jobs on Google App Engine] - Scheduling Tasks With Cron for Java 
+ * https://cloud.google.com/appengine/docs/java/datastore/entities?csw=1#Properties_and_Value_Types[Properties_and_Value_Types] on the AppEngine; Data objects in Cloud Datastore are known as entities. An entity has one or more named properties, each of which can have one or more values.
+ * https://cloud.google.com/appengine/docs/flexible/java/using-gradle[Using Gradle and the App Engine Plugin] - 
+ * https://support.google.com/cloud/?hl=en-GB#topic=3340599[Cloud Platform Console Help]
+ * http://gaelyk.appspot.com/tutorial/app-engine-shortcuts#files-misc[Images service enhancements]
+ * http://gaelyk.appspot.com/tutorial/views-and-controllers#gaelykBindings[Vioews and Controllers]
+ * https://globalgateway.wordpress.com/2010/10/21/simple-crud-with-gaelyk/[Simple CRUD with Gaelyk]
+ * http://www.ibm.com/developerworks/java/library/j-javadev2-1/index.html[Java development 2.0: Hello Google App Engine]
+ * https://books.google.fr/books?id=zFtuXftEKz0C&pg=PA15&dq=com.google.appengine.api.datastore+key&hl=en&ei=We_gTvazA8rD8QOVveHQBA&sa=X&oi=book_result&ct=result#v=onepage&q=com.google.appengine.api.datastore%20key&f=false[Beginning Java Google App Engine]
+ * https://cloud.google.com/appengine/docs/java/config/webxml?csw=1[About Deployment Descriptors] 
+ 
+''''
+
+== GPars
+
+ * https://github.com/GPars[The GPars Project on GitHub] - The *GPars* concurrency and parallelism framework for the JVM.
+ * https://github.com/GPars/GPars/blob/master/build.gradle[Gradle script to publish GPars to Maven] - a Gradle build script to publish to *Bintray*.
+ * https://github.com/GPars/GPars/blob/master/build.gradle[build.gradle] - publishing to maven
+ * http://zeroturnaround.com/rebellabs/flavors-of-concurrency-in-java-threads-executors-forkjoin-and-actors/[Flavors of Concurrency in Java: Threads, Executors, ForkJoin and Actors | zeroturnaround.com]
+
+''''
+
+== Gradle
+
+TIP: *Gradle* is a build tool for the JVM written in *Groovy*
+
+ * https://www.safaribooksonline.com/library/view/gradle-beyond-the/9781449373801/ch01.html[Beyond The Basics] - a Safari Book giving an indepth discussion of File usage like File Filtering, Lazy Files, etc. within Gradle.
+ * https://docs.gradle.org/current/userguide/working_with_files.html[Working with Files in Gradle] - the Bible explains File Collections and Trees and even more !
+ * https://docs.gradle.org/current/dsl/org.gradle.api.tasks.Copy.html[Gradle Copy Docs] - Copies files into a destination directory. 
+ * https://boxfuse.com/blog/gradle-plugin[BoxFuse - ]Tool to deploy JVM jars to AWS
+ * https://boxfuse.com/blog/gradle-plugin-portal[Gradle Plugin Portal]
+ * http://mrhaki.blogspot.fr/2013/05/gradle-goodness-show-more-information.html[Gradle Goodness: Show More Information About Failed Tests - Messages from mrhaki]
+ * https://docs.gradle.org/current/dsl/org.gradle.api.Project.html#org.gradle.api.Project:subprojects(groovy.lang.Closure)[Gradle 3.4 Properties and Closures]
+ * https://rominirani.com/gradle-tutorial-part-5-gradle-app-engine-plugin-21b923e799b8#.mnt0hxl5g[Lesson 5 - Google App Engine PLugin]
+ * https://rominirani.com/gradle-tutorial-part-4-java-web-applications-9f4225cc02e5#.l6xyxqub6[Lesson 4 - Gradle Web Apps] for Java
+ * https://rominirani.com/gradle-tutorial-part-3-multiple-java-projects-5b1c4d1fbd8d#.drx6u4g2b[Lesson 3 - Java Multiple] projects tutorial - very good.
+ * https://docs.gradle.org/current/userguide/continuous_build.html#gsc.tab=0[Continuous Build GroovyDocs discussion]
+
+image::divider3.png[align=center, title-align=center]
+
+=== Publishing 
+
+ * http://zserge.com/blog/gradle-maven-publish.html[Simple Library Publishing to Maven Central]
+ * http://mike-neck.github.io/blog/2013/06/21/how-to-publish-artifacts-with-gradle-maven-publish-plugin-version-1-dot-6/[How to Publish Maven Artifacts] - After reading this post, you can upload your artifacts to maven central repository via maven-publish plugin.
+ * http://central.sonatype.org/pages/gradle.html[Publishing]
+ * https://docs.gradle.org/current/userguide/artifact_management.html[Publishing Artifacts]
+ * https://github.com/bintray/gradle-bintray-plugin#readme[Bintray Publish Plugin]
+ * https://docs.gradle.org/current/dsl/org.gradle.api.publish.maven.MavenPublication.html[Maven Publications] in Gradle; A MavenPublication is the representation/configuration of how Gradle should publish something in Maven format.
+ 
+image::divider3.png[align=center, title-align=center]
+
+=== Petri Kainulainen's Gradle Intro
+
+ * https://www.petrikainulainen.net/getting-started-with-gradle/[Getting Started With Gradle] from Petri Kainulainen; describes how we can install Gradle, and provides a quick introduction to its build process and design philosophy.
+ * https://www.petrikainulainen.net/programming/gradle/getting-started-with-gradle-introduction/[Getting Started With Gradle: Introduction] - helps us to install Gradle and describes some of its basic concepts. 
+ * https://www.petrikainulainen.net/programming/gradle/getting-started-with-gradle-our-first-java-project/[Getting Started With Gradle: Our First Java Project] - Our java build script must create an executable jar file. In other words, we must be able to run our program by using the command: *java -jar jarfile.jar*
+ * https://www.petrikainulainen.net/programming/gradle/getting-started-with-gradle-dependency-management/[Gradle Dependency Management] - how we can manage the dependencies of our projects with Gradle? We'll learn to configure used repositories and their required dependencies. 
+ * https://www.petrikainulainen.net/programming/gradle/getting-started-with-gradle-creating-a-binary-distribution/[Creating a Binary Distribution] - This blog post describes how we can build a binary distribution but must not use so called `fat jar` approach (see link below).
+ * https://www.petrikainulainen.net/programming/gradle/getting-started-with-gradle-creating-a-multi-project-build/[Gradle: Creating a Multi-Project Build] - This blog post describes how we can create a multi-project build with Gradle.
+ * https://www.petrikainulainen.net/programming/gradle/getting-started-with-gradle-creating-a-web-application-project/[Creating a Web Application Project] - we want to create a web application project that uses Java, package our web application into a WAR file, and run our web application in a development environment.
+
+.Gradle Copy Task Sample with Filter ==~
+[source,gradle]
+----
+task copyArtifacts(type: Copy) {       
+    from(fileTree(fileList).files) { // flattening
+        include {
+            it.file.name ==~ "^.*-[0-9]\\.[0-9]\\.[0-9](-SNAPSHOT)?\\.jar\$"
+        }
+    }
+    into targetDir
+}
+----
+
+image::divider3.png[align=center, title-align=center]
+
+==== Testing Stuff
+
+ * https://www.testwithspring.com/lesson/running-integration-tests-with-gradle/[Running Integration Tests with Gradle] by using the Gradle TestSets plugin. Before we will apply this plugin, but we can only use this plugin only if we are also using the java and/or groovy plugin. 
+ * https://www.petrikainulainen.net/programming/gradle/getting-started-with-gradle-integration-testing/[More Integration Testing] - Integration and unit tests must have different source directories. The `src/integration-test/java` directory must contain the source code of our integration tests and the `src/test/java` directory must contain the source code of our unit tests.
+ * https://www.petrikainulainen.net/programming/gradle/getting-started-with-gradle-integration-testing-with-the-testsets-plugin/[Integration Testing With the TestSets Plugin]
+ * https://www.testwithspring.com/lesson/running-unit-tests-with-gradle/[Running Unit Tests with Gradle] - Youtube to Understand why we should categorize our tests by using JUnit 4 categories.
+
+''''
+
+== Gretty
+
+ * https://github.com/akhikhl/gretty/blob/master/integrationTests/helloGrettyOverlay/build.gradle[Gretty on GitHub] - a sample build.gradle script to run *Gretty*
+ * http://akhikhl.github.io/gretty-doc/Gretty-configuration.html[Gretty configuration]
+ * https://github.com/akhikhl/gretty[GitHub Repo]
+ * https://github.com/akhikhl/gretty/blob/master/build.gradle[Gretty build.gradle] - with samples of publish closure
+ 
+''''
+
+== Groovy
+
+ * http://eddelbuettel.net/groovy/groovy-io.html[Streams, Readers and Writers] in Groovy; For ages the smallest unit of information that is transferred in I/O operations is the byte. File sizes are counted in bytes, TCP/IP sockets and web protocols count in bytes and so do pipes for inter-process communication. A stream is a source or destination for a sequence of bytes. 
+ * http://www.ibm.com/developerworks/java/library/j-pg03155/[Go server-side up, with Groovy On-the-fly server-side programming with Groovlets and GSPs] -  frameworks aim to provide an elegant yet simple platform for building Web applications of minimal complexity. 
+ * http://mrhaki.blogspot.fr/2009/09/groovy-goodness-parameters-with-default.html#uds-search-results[Groovy Method Parameter defaults] - MrHaki; In Groovy we can assign default values to parameters in a method.
+ * http://mrhaki.blogspot.fr/2009/08/add-client-side-caching-to-groovlets.html[Add Client Side Caching to Groovlets and Separate Logic and View] - MrHaki; Client side caching decreases bandwidth usage and also lessens the load on our application. 
+ * http://mrhaki.blogspot.fr/2009/08/grassroots-groovy-templating-route.html[Groovy: the Templating Route] - MrHaki; If we need some templating functionality in our Java application we can use Groovy templates. Groovy templates allow us to write Groovy code, use JSP expressions or use variables in the template. Basically a template contains static text with placeholders and we combine the template with 'live' objects through binding. The result is a the template with all placeholders replaced with the correct values from the binding and expressions.
+ * http://mrhaki.blogspot.fr/2009/08/grassroots-groovy-spring-route-part-1.html[Spring Routing - Part 1]: a simple Data Access Object (DAO) class and interface to get a list of Person objects. The DAO class is used by a service to get any person without an e-mail address. We are going to write the service in Groovy. All these classes are connected by a Spring configuration file. 
+
+image::divider3.png[align=center, title-align=center]
+
+=== Builders
+ 
+ * http://juixe.com/techknow/index.php/2007/03/26/builder-pattern-made-groovy/[Builder Pattern Made Groovy]
+ * http://docs.groovy-lang.org/docs/latest/html/documentation/core-domain-specific-languages.html#_existing_builders[Existing Groovy Builders]- XML,SAX,Stax,DOM,Nodes,JSON,Swing,Ant,CLI,ObjectGraphs,JMX,FileTreeBuilder
+ * https://www.tutorialspoint.com/groovy/groovy_builders.htm[Review of Many Builders] - Swing,Event,DOM,JSON,Nodes,FileTrees
+ * http://docs.groovy-lang.org/docs/latest/html/documentation/core-domain-specific-languages.html#_filetreebuilder[FileTreeBuilder is a builder for generating a file directory structure from a specification.]
+ 
+.FileTreeBuilder Example
+[source,groovy] 
+----
+tmpDir = File.createTempDir()
+def fileTreeBuilder = new FileTreeBuilder(tmpDir)
+fileTreeBuilder.src {
+    main {
+       groovy {
+          'Foo.groovy'('println "Hello"')
+       }
+    }
+    test {
+       groovy {
+          'FooTest.groovy'('class FooTest extends GroovyTestCase {}')
+       }
+    }
+ }
+----
+
+would create a folder structure like this:
+[source,bash]
+----
+ src/
+  |--- main
+  |     |--- groovy
+  |            |--- Foo.groovy
+  |--- test
+        |--- groovy
+               |--- FooTest.groovy
+----
+
+image::divider3.png[align=center, title-align=center]
+
+=== Config CRUD
+
+ * http://mrhaki.blogspot.fr/2009/10/groovy-goodness-using-configslurper.html[Using ConfigSlurper with Configuration Scripts] - The ConfigSlurper class can be used to parse Groovy scripts with configuration information. This way we can use a real script instead of a properties file to define configuration information in our applications. 
+
+image::divider3.png[align=center, title-align=center]
+          
+=== DSL - Write Your Own
+
+ * http://docs.groovy-lang.org/docs/latest/html/documentation/core-domain-specific-languages.html[DSL Command Chains] - Groovy lets you omit parentheses around the arguments of a method call for top-level statements. "command chain" feature extends this by allowing us to chain such parentheses-free method calls, requiring neither parentheses around arguments, nor dots between the chained calls. 
+ * http://docs.groovy-lang.org/docs/latest/html/documentation/core-domain-specific-languages.html#_script_base_classes[BaseScript Annotations] - Roll your own DSL mini-methods; a script is compiled to a class extending the abstract groovy.lang.Script class. This class contains a single abstract method called run. 
+ * http://stackoverflow.com/questions/20921546/elegant-way-for-do-while-in-groovy[Groovy Do While/Until  Example]
+ * http://mrhaki.blogspot.fr/2009/09/groovy-goodness-looping-in-different.html[Looping Ideas - MrHaki]
+ * https://www.google.fr/search?q=groovy+loop+logic+until+a+condition&ie=utf-8&oe=utf-8&client=firefox-b&gfe_rd=cr&ei=Npa1WIrWCseGgAbjkqLABA[Google Search ]For Groovy Looping Samples
+ * http://mrhaki.blogspot.fr/2011/11/groovy-goodness-create-our-own-script.html[MrHaki explains] how to _Create Our Own Script Class_
+
+
+IMPORTANT: You can't have *while* syntax as  *while* is a keyword
+
+You can roll your own looping that's almost what you want. Here's an example with _loop { code } until { condition }_.
+You can't have a corresponding _loop { code } while { condition }_ because *while* is a keyword. 
+But you could call it something else.
+
+Anyway here's some rough and ready code for loop until. 
+One gotcha is you need to use braces for the until condition to make it a closure. 
+There may well be other issues with it.
+
+.until sample
+[source,groovy] 
+----
+class Looper {
+   private Closure code
+
+   static Looper loop( Closure code ) {
+      new Looper(code:code)
+   }
+
+   void until( Closure test ) {
+      code()
+      while (!test()) {
+         code()
+      }
+   }
+}
+----
+
+.Usage:
+[source,groovy] 
+----
+import static Looper.*
+
+int i = 0
+loop {
+   println("Looping : "  + i)
+   i += 1
+} until { i == 5 }
+----
+
+image::divider3.png[align=center, title-align=center]
+   
+=== File and Folder DSL creation
+
+ * http://mrhaki.blogspot.fr/2016/05/groovy-goodness-creating-files-and.html[MrHaki tells all] - most excellent code sample to build folder structures 
+ * http://docs.oracle.com/javase/7/docs/api/java/io/File.html#mkdirs()[Oracle API to build a Folder Structure]
+ * http://mrhaki.blogspot.fr/2010/04/groovy-goodness-working-on-files-or.html[Working on Files or Directories (or Both) with FileType]
+ * http://docs.groovy-lang.org/docs/groovy-2.0.5/html/gapi/org/codehaus/groovy/runtime/WritableFile.html[WritableFile writeTo() method]
+ * http://mrhaki.blogspot.fr/2010/04/groovy-goodness-traversing-directory.html[Traverse()] - a method to Walk a Folder Structure and sub-folders invoking a Closure on each *it* found.
+ * http://docs.groovy-lang.org/docs/groovy-1.7.7/html/groovy-jdk/java/io/File.html[File API as of Groovy 1.7.7]
+ * http://stackoverflow.com/questions/1099300/whats-the-difference-between-getpath-getabsolutepath-and-getcanonicalpath[the difference between getPath(), getAbsolutePath(), and getCanonicalPath()]
+ * http://docs.groovy-lang.org/2.4.8/html/gapi/index.html?groovy/util/FileTreeBuilder.html[API for FileTreeBuilder]
+ 
+.Canonical and Absolute Filenames
+[source,java]
+----
+File file = new File("../bin");
+System.out.println(file.getPath());
+System.out.println(file.getAbsolutePath());
+System.out.println(file.getCanonicalPath());
+
+would print:
+
+../bin
+/usr/local/../bin
+/usr/bin
+----
+ 
+.File Walker Sample
+[source,groovy]
+----
+import static groovy.io.FileType.*
+import static groovy.io.FileVisitResult.*
+ 
+def groovySrcDir = new File(System.env['GROOVY_HOME'], 'src/')
+ 
+def countFilesAndDirs = 0
+groovySrcDir.traverse {
+    countFilesAndDirs++
+}
+println "Total files and directories in ${groovySrcDir.name}: $countFilesAndDirs"
+
+def totalFileSize = 0
+def groovyFileCount = 0
+def sumFileSize = {
+    totalFileSize += it.size()
+    groovyFileCount++
+}
+def filterGroovyFiles = ~/.*\.groovy$/
+
+groovySrcDir.traverse type: FILES, visit: sumFileSize, nameFilter: filterGroovyFiles
+
+println "Total file size for $groovyFileCount Groovy source files is: $totalFileSize"
+----
+
+image::divider3.png[align=center, title-align=center]
+
+=== JSON Samples and Usage
+
+ * http://mrhaki.blogspot.fr/2011/04/groovy-goodness-build-json-with.html[new JsonBuilder()]
+ * http://mrhaki.blogspot.fr/2014/08/groovy-goodness-relax-groovy-will-parse.html[RELAX Parsing]
+ * https://gist.github.com/keyle/723181f3a9a59a3f7652[Write JSON Objects to File and re-read]
+ * http://docs.groovy-lang.org/latest/html/gapi/groovy/json/JsonBuilder.html[JsonBuilder API]
+ * http://groovy-lang.org/json.html[JSON JsonOutput], Slurper
+ * https://markembling.info/2011/07/json-date-time[Dates and Times in JSON]
+ * http://docs.groovy-lang.org/latest/html/documentation/core-domain-specific-languages.html#_jsonbuilder[JSON Builder] and StreamingJsonBuilder for big 2MB payloads
+ * https://examples.javacodegeeks.com/jvm-languages/groovy/groovy-json-example/[JSON Slurper] examples and Builder too; excellent overview of JSON usage in Groovy.
+ * http://docs.groovy-lang.org/latest/html/documentation/core-domain-specific-languages.html#_jsonbuilder[DSL]
+ * http://docs.groovy-lang.org/latest/html/gapi/groovy/json/JsonOutput.html[JsonOutput Class API]
+ * https://examples.javacodegeeks.com/jvm-languages/groovy/groovy-json-example/[Groovy JSON Examples] 
+ * http://mrhaki.blogspot.fr/2011/11/grassroots-groovy-reading-json-with.html[Reading JSON with JsonSlurper]
+ 
+[source,groovy]
+----
+String carRecords = '''
+    {
+        "records": {
+        "car": {
+            "name": "HSV Maloo",
+            "make": "Holden",
+            "year": 2006,
+            "country": "Australia",
+            "record": {
+              "type": "speed",
+              "description": "production pickup truck with speed of 271kph"
+            }
+          }
+      }
+    }
+'''
+----
+
+image::divider3.png[align=center, title-align=center]
+   
+=== Maps
+
+ * http://grails.asia/groovy-map-tutorial[Map Tutorial]
+
+image::divider3.png[align=center, title-align=center]
+
+=== MongoDB
+
+ * http://asrijaffar.blogspot.fr/2009/08/groovy-tutorial-for-mongodb.html[Groovy Tutorial for MongoDB]
+
+image::divider3.png[align=center, title-align=center]
+ 
+=== RegEx Stuff
+
+ * http://mrhaki.blogspot.fr/2009/09/groovy-goodness-using-regular.html[Using Regular Expression Pattern Class]
+ * http://www.regular-expressions.info/groovy.html[RegEx in Groovy Tutorial] - Patterns and Matchers
+ * http://mrhaki.blogspot.fr/2012/06/groovy-goodness-partial-matches.html[Partial Matches]
+ * http://www.regular-expressions.info/java.html[RegEx in Java]
+ * https://www.tutorialspoint.com/java/java_string_replacefirst.htm[replaceFirst] using RegEx
+ * http://naleid.com/blog/2008/05/19/dont-fear-the-regexp[RegEx Tut]
+ * http://mrhaki.blogspot.fr/2013/11/groovy-goodness-remove-part-of-string.html[Remove Part of String With Regular Expression Pattern]
+
+image::divider3.png[align=center, title-align=center]
+
+=== Strings, Characters n Stuff
+ 
+ * http://mrhaki.blogspot.fr/2009/10/groovy-goodness-using-replaceall.html[using String replaceAll]
+ * http://mrhaki.blogspot.fr/2013/09/groovy-goodness-replace-characters-in.html[Replace Characters in a String with CollectReplacements]
+ * http://grails.asia/groovy-string-tutorial[Groovy Strings Tut]
+ * http://grails.asia/groovy-substring[Substrings and Take()]
+ * http://mrhaki.blogspot.fr/2010/06/groovy-goodness-text-translation.html[Text Translation using the *tr()* method]
+ * http://mrhaki.blogspot.fr/2009/12/groovy-goodness-what-character-are-you.html[What Character are you]
+ * http://eddelbuettel.net/groovy/groovy-io.html[Streams,Readers and Writers]
+
+image::divider3.png[align=center, title-align=center]
+ 
+=== Swing
+
+ * http://docs.groovy-lang.org/latest/html/documentation/core-domain-specific-languages.html#swingbuilder[SwingBuilder]
+
+image::divider3.png[align=center, title-align=center]
+  
+=== XML - Create And Save To File
+
+ * http://grails.asia/groovy-create-xml-document-examples[XML Builders] - examples of how to process an XML document 
+
+Since `MarkupBuilder` accepts any objects that extends a `Writer`, we can pass a `FileWriter` to it to output the result to a file. Below is a simple example to show that. It is a minor tweak to the code shown above:
+
+[source,groovy]
+----
+package test
+import groovy.xml.MarkupBuilder
+/**
+ * A Simple Example that builds an XML document and saves the result to a file.
+ */
+class Test {
+    static main(args) {
+        def fileWriter = new FileWriter("c:/temp/testdb.xml")
+        def peopleBuilder = new MarkupBuilder(fileWriter)
+        peopleBuilder.people {
+            person {
+                firstName('John')
+                lastName('Doe')
+                age(25)
+            }
+            person {
+                firstName('Jane')
+                lastName('Smith')
+                age(31)
+            }
+        }
+        fileWriter.close();
+    }
+}
+----
+
+''''
+
+== IBM Bluemix
+
+ * https://www.ibm.com/cloud-computing/bluemix/cloud-object-storage[IBM Bluemix Object Storage] - Access your unstructured data via a self-service portal from anywhere in the world with RESTful APIs.
+
+''''
+
+== IETF
+ 
+ * http://www.ietf.org/newcomers.html[Getting Started in the IETF] 
+ * https://datatracker.ietf.org/doc/draft-hunt-http-rest-redirect/[draft-hunt-http-rest-redirect-00]
+ 
+''''
+
+== Java
+
+ * http://product.hubspot.com/blog/the-fault-in-our-jars-why-we-stopped-building-fat-jars[Fat Jars]
+ * https://jcp.org/en/jsr/detail?id=369[JCSP Servlet 4.0 Specifications]
+ * http://www.programmingsimplified.com/java/tutorial/java-constructor-tutorial[Java constructor chaining] - Java constructor tutorial with code examples of overloading and chaining.
+ * http://blog.jevsejev.io/2017/02/19/java-libraries-you-cannot-miss-in-2017/[Java Libraries of 2017]
+ * http://tutorials.jenkov.com/java-internationalization/simpledateformat.html[Simple Date Formats]
+ * https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html[Oracle API - Simple Date Fmts]
+ * http://zeroturnaround.com/rebellabs/flavors-of-concurrency-in-java-threads-executors-forkjoin-and-actors/[Flavors of Concurrency in Java: Threads, Executors, ForkJoin and Actors | zeroturnaround.com]
+
+.Get / Put Dates into JSON
+[source,javascript]
+----
+JSONObject obj = new JSONObject(response);
+User user = new User();
+      user.setuserID(obj.getString("userID"));
+      user.setisMale(obj.getBoolean("isMale"));
+      user.setEmail(obj.getString("email"));
+      // user.setBirthdate(obj.getDate("birthdate"));
+----
+
+.Java / Groovy
+[source,groovy]
+----
+String dateStr = obj.getString("birthdate");
+SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+Date birthDate = sdf.parse(dateStr);
+//then
+user.setBirthdate(birthDate);
+----
+
+''''
+
+== Jenkins Continuous INtegration
+
+ * http://join.cloudbees.com/webmail/272242/10220139/ad805078bbb4da62710f2f47b240cd08febf8e7fb199f622ab311604dd996b71[Newsletter] covers many Jenkins topics
+        
+''''
+
+== JQuery
+
+ * http://webcloud.se/jQuery-Collapse/[JQuery Collapse] - creates a vertical accordion for content.
+ * http://webcloud.se/best-practice-testing-javascript-event-handlers/[How to test JQuery Javascript Event Handlers]
+ * http://api.jquery.com/jQuery.ajax/[JQuery Ajax()] - samples with API.
+ * http://api.jqueryui.com/autocomplete/[JQuery Autocomplete Widget] - Autocomplete enables users to quickly find and select from a pre-populated list of values as they type, leveraging searching and filtering.
+ * http://jqueryui.com/autocomplete/#method-search[JQuery Autocomplete] - an example
+ * https://code.tutsplus.com/tutorials/how-to-use-the-jquery-ui-autocomplete-widget--net-10560[How to Use the jQuery UI Autocomplete Widget]
+ * http://www.designchemical.com/blog/index.php/jquery/live-text-search-function-using-jquery/[Create a live text search feature using jQuery « Design Chemical – jQuery, Wordpress, Tutorials &amp; Plugins]
+
+''''
+
+== Logging
+
+ * http://vazexqi.github.io/posts/2013/02/24/groovy-slf4j.html[Slf4J discussion]
+ * https://www.slf4j.org/manual.html[Slf4j.Org]
+ * http://blog.bripkens.de/2012/02/how-to-do-logging-groovy-tutorial/[Logging in Groovy]
+ * https://logback.qos.ch/demo.html[Logback Demo]
+ * http://www.onjava.com/pub/a/onjava/2002/06/19/log.html?page=1[Java Logging]
+ 
+''''
+
+== MarkDown Cheatsheet
+
+ * https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet[See it here] - This is intended as a quick reference and showcase. 
+ * https://github.com/adam-p/markdown-here/wiki/Other-Markdown-Tools[M/D Tools] - JavaScript and Editors to write Markdown documents.
+  
+''''
+
+== Maven
+
+ * https://www.petrikainulainen.net/maven-tutorial/[Introducing Maven ] - some 20 complex lessons - not for beginners.
+ 
+''''
+
+== Modal Forms
+
+image:modal.png[Modal,400,link="http://vegibit.com/bootstrap-modal-form-examples/",title="Modal Dialogs", window="_blank"]
+
+''''
+
+== Parallel Computing
+
+ * https://computing.llnl.gov/tutorials/parallel_comp/[Introduction to Parallel Computing] - Lawrence Livermore National Laboratory: Introduction to Parallel Computing
+
+''''
+
+== Security
+
+ * https://stormpath.com/blog/client-api-authentication-mobile-frontend[Stormpath] - Introducing the Client API—Simplified Authentication for Mobile and Frontend Developers
+ * https://stormpath.com/blog/client-api-authentication-mobile-frontend?utm_campaign=january-2017-newsletter[Jan.17 Newsletter] - Simplified Authentication for Mobile and Frontend Developers
+ 
+''''
+
+== Servlet Stuff
+
+=== Context, Specifications and Tomcat
+
+ * http://stackoverflow.com/questions/3006732/servletcontext-getresource-not-working[ServletContext getResource not working] - a path resolution problem.
+ * http://stackoverflow.com/questions/7938138/what-if-url-pattern-matches-multiple-servlets[what if url pattern matches multiple servlets?] - if the mappings have exactly the same pattern, there is no guarantee which servlet one will be invoked. So avoid that. If the patterns are overlapping, the most specific one is picked. (/abc is more specific than /*)
+ * https://jcp.org/en/jsr/detail?id=369[Java Servet 4.0 Specification] - The primary goal of this JSR is to expose support for the upcoming IETF standard HTTP/2 to users of the Servlet API. A secondary goal is to refresh the Servlet API with to achieve compliance with new features in HTTP 1.1 as well as responding to community input. `HTTP/2` is still in active development in an IETF working group (WG), however, it is expected to be completed well in advance of the completion date of Java EE 8. 
+ * http://www.javacodegeeks.com/2013/09/top-100-java-servlet-questions.html[Top 100 Java Servlet Questions] - a set of complex issues within HTTP web server environments.
+ * http://www.kuligowski.pl/java/rest-style-urls-and-url-mapping-for-static-content-apache-tomcat,5[REST style urls and url mapping for static content (Apache Tomcat)]; This short article describes how to create web.xml url mappings for static content when REST style of urls is used. Missing extensions at the end of URIs force to use path-prefix matching rules which cause real problems.
+ * http://docs.groovy-lang.org/latest/html/api/groovy/servlet/TemplateServlet.html[TemplateServlet (Groovy 2.4.5)] - `GroovyDocs API` - It delegates work to a groovy.text.TemplateEngine implementation processing HTTP requests. 
+ 
+image::divider3.png[align=center, title-align=center]
+
+=== Web.XML Review
+
+ * http://www.java2s.com/Tutorial/Java/0400__Servlet/ServletWebXMLContextInitParameter.htm[Web XML Servlet Context Parms] - a sample java servlet can be seen here.
+ * http://www.java2s.com/Tutorial/Java/0400__Servlet/ServletPassInitValueinWebXML.htm[Passing Initial Values] - Web.xml can contain `init-param` values that get passed to a servlet to influence how they behave.
+ * http://www.java2s.com/Tutorial/Java/0400__Servlet/ServletMapURLinwebXML.htm[Servlet Routing and Mapping]
+ * http://www.java2s.com/Tutorial/Java/0400__Servlet/Seterrorpageinwebxml.htm[Error Page in Web.xml]
+ * http://www.java2s.com/Tutorial/Java/0400__Servlet/Definewelcomefilesforwebapplication.htm[Welcome Files] - defining the *welcome-file-list* in `Web.XML` 
+ * http://www.java2s.com/Tutorial/Java/0400__Servlet/SetServletContextListenerinwebXML.htm[Servlet ContextListener] - addresses issues related to `ContextListener`
+ * http://www.java2s.com/Tutorial/Java/0400__Servlet/ServletWebXMLContextInitParameter.htm[Servlet Web XML Context Init Parameter] - sample of how to declare context-param values in web.xml and read in a servlet.
+
+''''
+
+== Spock Test Framework
+
+ * http://spockframework.org[Spock Framework] - How It All Works
+ * http://tidyjava.com/cleaner-tests-spock/[Cleaner tests with Spock] - tests are code. This implies that the tests, as any kind of code, have to be read, understood and maintained.
+ * http://testerstories.com/2016/03/why-test-engineers-should-learn-geb-and-spock/[Why Learn Geb and Spock ?]
+ * http://spockframework.org/spock/docs/1.0/spock_primer.html[Spock Primer] assumes you have a basic knowledge of Groovy and unit testing.
+ 
+.Spock Specifications 
+----
+class MyFirstSpecification extends Specification {
+  // fields
+  // fixture methods
+  // feature methods
+  // helper methods
+}
+----
+
+''''
+
+== Spring Framework Lessons from Petri Kainulainen
+
+ * https://www.petrikainulainen.net/spring-from-the-trenches/[Several lessons] in Spring from The Trenches
+ * https://www.petrikainulainen.net/using-jooq-with-spring/[SQL with Spring] - jOOQ is a library which helps you to get back in control of your SQL. It can generate code from your database.
+ * https://www.petrikainulainen.net/spring-social-tutorial/[Social Media and Spring] - my Spring Social tutorial will teach you to integrate Spring Social with your Spring powered applications.
+ * https://www.petrikainulainen.net/spring-data-jpa-tutorial/[Spring Data JPA Tutorial] - create an abstract base repository class that provides CRUD operations for our entities. Then we can create concrete repositories by extending that base repository class.
+ * https://www.petrikainulainen.net/spring-data-solr-tutorial/[Spring Data Solr Tutorial] - Apache Solr is a popular open source search server which is used via REST-like HTTP API.
+ * https://www.petrikainulainen.net/spring-mvc-test-tutorial/[MVC Test Tutorial] - writing comprehensive tests for Spring MVC controllers has been a complex task. The Spring MVC Test framework solves these problems.
+ * https://www.petrikainulainen.net/programming/gradle/getting-started-with-gradle-creating-a-spring-boot-web-application-project/[Creating a Spring Boot Web Application Project] that uses Thymeleaf as a templating engine and provides us a way to monitor it.
+
+''''
+
+== Testing Times
+
+ * file:///Users/jimnorthrop/Dropbox/Projects/Bas/build/docs/TrustAutomation.html[On Test Automation] - Trust Automation; By now, most people will be aware that the primary goal of test automation is NOT finding bugs. 
+ * http://www.ontestautomation.com/managing-and-publishing-test-results-with-tesults/[Managing and publishing test results with Tesults] - the greatest set of automated tests becomes a lot less powerful if the results aren’t visible to anybody interested in the quality of the system under test. 
+ * https://www.petrikainulainen.net/writing-tests-for-data-access-code/[Writing Tests for Data Access Code] - Writing tests for data access code is hard because we have to find answers to many difficult questions. If we make wrong choices, our tests might be useless.
+ * https://www.petrikainulainen.net/writing-clean-tests/[Writing Clean Tests] - If our tests are easy to read, it is easy to understand how our code works.
+ * http://www.ontestautomation.com/creating-stubs-using-the-hoverfly-java-dsl/[Stubs Testing w/Hoverfly] - Creating stubs using the Hoverfly Java DSL
+ * http://www.ontestautomation.com/on-elegance/[On Elegance] - Program testing can be used to show the presence of bugs, but never to show their absence
+ * http://www.ontestautomation.com/service-virtualization-with-parasoft-virtualize-community-edition/[Service Virtualisation] 
+ * http://www.ontestautomation.com/more-troubles-with-test-data/[Test Data Troubles] - We are faced with the task of writing automated user interface-driven tests for a complex application.
+ * http://www.ontestautomation.com/improving-your-craftsmanship-through-conferences/[Improving Test Results thru Conferences] as a delegate and as a speaker
+ * http://testerstories.com/2016/03/why-test-engineers-should-learn-geb-and-spock/[Why Learn Spock for testing ?]
+ 
+''''
+
+== Twitter Stuff
+ 
+ * http://www.labnol.org/internet/twitter-rss-feed/28149/[How to Create RSS Feeds for Twitter - Video Tutorial] - Twitter does not offer RSS Feeds so here is a simple workaround 
+ * https://twitter.com/settings/widgets/639826364674215936/edit?focus_textarea=1&notice=WIDGET_CREATED[Widgets Configurator] - Add any public Twitter timeline to your website using the tool below.
+ * https://github.com/lucastex/twitter-follower-bot/blob/master/TwitterFollowerBot.groovy[TwitterFollowerBot.groovy] at master · lucastex/twitter-follower-bot · GitHub repo, nice! 
+ * http://twitter4j.org/en/code-examples.html[Twitter4J - Code Examples]: post a Tweet, get Timeline, Sending / Receiving Direct Messages, Search for Tweets, Asynchronous API, Pagination, OAuth, Sign in with Twitter, Streaming API
+ * http://javapapers.com/core-java/post-to-twitter-using-java/[Post to Twitter using Java - Java Tutorial Blog] - Prerequisite – Twitter Keys
+
+''''
+
+== Write Better Code - Petri Kainulainen's Blog
+
+image::ss5.png[DO YOU WANT TO BE A BETTER SOFTWARE DEVELOPER?,400, link="https://www.petrikainulainen.net",title="DO YOU WANT TO BE A BETTER SOFTWARE DEVELOPER ?"]
+
+''''
+
+== Misc Links
+
+ * http://www.dropzonejs.com/[Dropzone.js] - DropzoneJS is an open source library that provides drag’n’drop file uploads with image previews.
+ * https://www.ouestfrance-immo.com/immobilier/vente/maison/le-saint-56-56201/[Maison à vendre à Le Saint (56110) : Vente Maison à Le Saint (56110)]
+ * https://wiki.ubuntu.com/PowerPCFAQ#Will_my_wireless_work.3F[PowerPCFAQ - Ubuntu Wiki]
+ * https://developers.google.com/web/fundamentals/performance/prpl-pattern/[PRPL - ] takes advantage of modern web platform features to granularly deliver mobile web experiences more quickly. PRPL is one such pattern.
+ * https://en.wikipedia.org/wiki/Wget#Using_Wget[Wiki explains WGET Command] - a computer program that retrieves content from web servers.
+ * http://thenewcode.com/765/Web-Development-Reading-List-Color[Color Effects on Web Design] - I’m Dudley Storey, author of Using SVG with CSS3 and HTML5, Smashing Magazine contributing editor, teacher and speaker. I write about all aspects of web development. 
+ 
+.Flow Player in Action
+image::ss6.png[Flow Player,400, link="https://flowplayer.org/",title="Flow PLayer"]
+
+ - Your very own video platform - Placing your content on a video-sharing site like *YouTube* might seem perfectly natural, but you can do better than that.
+
+.French Tech Visa
+image::ss4.png[French Tech Visa,400, link="http://visa.lafrenchtech.com",title="French Tech Visa"]
+
+IMPORTANT: This is a shared dropbox folder from martin.quickman@yahoo.co.uk and leanne.northrop@gmail.com
+
+''''
+
+== Entertainment
+
+[.thumb]
+image::ss1.png[BBC Radio 4,400,link="http://www.internetradiouk.com/mobile/bbc-4/",title="BBC Radio 4 - Live", window="_blank"]
+
+image::ss2.png[Live UK TV,400, link="http://www.watchallchannels.com/bbc-news/",title="Watch all UK TV channels here"]
+
+''''
+
+include::sampleinclude.adoc[]
+
+More {blogger_url}[blog posts] about {blogger_tag} available, written by {author}.
