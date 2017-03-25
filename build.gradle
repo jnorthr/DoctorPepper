@@ -6,9 +6,7 @@
 // All output html is written to gradle project folder named build/docs
 // All input comes from the src/docs/asciidoc folder
 
-allprojects{
-	task hello << {task-> println "I'm $task.project.name"}
-}
+defaultTasks 'asciidoctor' 
 
 buildscript {
     repositories {

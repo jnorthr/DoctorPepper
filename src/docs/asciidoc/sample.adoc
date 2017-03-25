@@ -1,12 +1,12 @@
 = Sample Asciidoctor
 jnorthr <james.northrop@orange.fr>
-V1.1, Updated 25 Mar.2017: DoctorPepper Notes
+V1.3, Updated 25 Mar.2017: DoctorPepper Notes
 :sectanchors:
 :sectlinks:
 :icons: font
 :imagesdir: ./images
 
-== Some Title
+== Some Sample Title
 
 A lot more text here.
 
@@ -26,7 +26,7 @@ On one of my least-used systems, did the following:
 .Gradle Continuous Doctor Translation
 [source,bash]
 ----
-cd ~
+cd ~/Dropbox
 git clone https://github.com/jnorthr/DoctorPepper.git
 cd ~/Dropbox/DoctorPepper
 gradlew -t asciidoctor
@@ -64,7 +64,7 @@ With full-time running, my asciidoctor tranlation process will nicely convert an
 == Goal
 
 What does this achieve ? Well anywhere on any of my six systems, i can modify my documentation and the _kind-of_
-remote server will produce a new `*.html* set of results. Then i can have one or several browsers viewing the
+remote server will produce a new *.html* set of results. Then i can have one or several browsers viewing the
 results of files i'm editing, say in folder *DoctorPepper/build/docs* for my revised *sample.html*.
 
 While doing this page, i had my text editor open, fixed some spelling mistakes and only did an editor save, like *Ctrl-S*

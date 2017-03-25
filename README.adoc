@@ -33,7 +33,7 @@ On one of my least-used systems, did the following:
 .Gradle Continuous Doctor Translation
 [source,bash]
 ----
-cd ~
+cd ~/Dropbox
 git clone https://github.com/jnorthr/DoctorPepper.git
 cd ~/Dropbox/DoctorPepper
 gradlew -t asciidoctor
