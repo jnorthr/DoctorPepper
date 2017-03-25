@@ -6,6 +6,13 @@ V1.1, Updated 25 Mar.2017: DoctorPepper Notes
 :icons: font
 :imagesdir: ./images
 
+== Status
+
+*Travis C/I* Project Health -
+image:https://img.shields.io/travis/jnorthr/DoctorPepper.svg[Build Status (Travis CI), link=https://travis-ci.org/jnorthr/DoctorPepper]
+
+''''
+
 == Some Title
 
 A lot more text here.
@@ -56,7 +63,7 @@ IMPORTANT: NO ! Why not ? Because screen saver on my gradle system put it to sle
 If the server or desktop running your `gradlew -t asciidoctor` continuous process has it's screen saver
 turned on, then you will only have continuous doctor translation while it does not sleep.
 
-With full-time running, my asciidoctor tranlation process will nicely convert any/every change i make to my *.adoc*,etc.
+With full-time running, my asciidoctor translation process will nicely convert any/every change i make to my *.adoc*,etc.
  documents within the *src/docs/asciidoc* folder. 
 
 ''''
@@ -75,7 +82,7 @@ NOTE: Near-instant Translation
 Then i only click browser refresh to see the new view and this saves me the bother of copying 
 everything up to my CloudFoundry target. *Nice ;-)*
 
-TIP: Just coping new *.adoc* files into *src/docs/asciidoc* will appear in the output folder too !
+TIP: Just copying new *.adoc* files into *src/docs/asciidoc* will appear in the output folder too !
 
 ''''
 
