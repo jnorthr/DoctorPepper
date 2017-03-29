@@ -1,4 +1,4 @@
-= Sample Asciidoctor
+= DoctorPepper README
 jnorthr <james.northrop@orange.fr>
 V1.1, Updated 25 Mar.2017: DoctorPepper Notes
 :sectanchors:
@@ -9,11 +9,7 @@ V1.1, Updated 25 Mar.2017: DoctorPepper Notes
 == Status
 
 *Travis C/I* Project Health -
-image:https://img.shields.io/travis/jnorthr/DoctorPepper.svg[Build Status (Travis CI), link=https://travis-ci.org/jnorthr/DoctorPepper]
-
-image:http://img.shields.io/badge/license-MIT-blue.svg?style=flat[MIT License, link=https://github.com/asciidoctor/atom-asciidoc-preview/blob/master/LICENSE.md]
-
-image:https://img.shields.io/hexpm/l/plug.svg[Hex.pm]
+image:https://img.shields.io/travis/jnorthr/DoctorPepper.svg[Build Status (Travis CI), link=https://travis-ci.org/jnorthr/DoctorPepper]  image:https://img.shields.io/hexpm/l/plug.svg[Apache License, link=https://github.com/jnorthr/DoctorPepper/blob/master/LICENSE]
 
 ''''
 
@@ -103,6 +99,18 @@ IMPORTANT: Surprise !
 
 Was *surprised* when i accidentally ran *groovydoc* task to produce some API doc.s for my `Walker.groovy` code, and low-and-behold
 the next cycle of our *asciidoctor* task included all my *groovydoc*, *javadoc*, and test reports in this *toc.adoc* summary !
+
+=== Even More
+
+Since i've added http://rants.broonix.ca/java-code-coverage-with-gradle-and-jacoco-2/[*Jacoco*] code coverage tool, to see a full-blown example of `walker` in action try this:
+
+.Generate a Bunch of HTML, Writing Table of Contents for It and Convert to HTML 
+[source,bash]
+----
+gradlew build  jacocoTestReport groovydoc test walker asciidoctor
+----
+
+After this, there should be a fully-loaded `/Users/jimnorthrop/Dropbox/Projects/DoctorPepper/build/docs/toc.html`
 
 === `Walker` Task in Gradle
 
