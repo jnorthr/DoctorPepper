@@ -1,0 +1,18 @@
+Continuous Asciidoctor Translation Service
+
+If, like me, you write a lot of asciidoctor styled doc.s, then this continuous
+translation service may keep you going longer and faster. It uses an included gradle build tool
+to convert .adoc files near-instantly for 24/7 or you power off your system
+
+REAMDE and code are here:
+
+http://github.com/jnorthr/DoctorPepper
+
+Continuous Asciidoctor Translation Service
+
+If, like me, you write a lot of asciidoctor styled doc.s, then this continuous translation service may keep you going longer and faster. It uses an included gradle build tool to convert .adoc files near-instantly for 24/7 or you power off your system
+
+REAMDE and code are here:
+
+http://github.com/jnorthr/DoctorPepper
+

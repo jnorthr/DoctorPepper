@@ -42,6 +42,8 @@ gradlew -t asciidoctor
 The *-t* option keeps gradle running in continuous mode so now any changes i make to any asciidoctor files are near-instantly
 translated for me.
 
+NOTE: If you don't have a *git* client https://git-scm.com/downloads[click here to install one]
+
 ''''
 
 == Update from A Different System

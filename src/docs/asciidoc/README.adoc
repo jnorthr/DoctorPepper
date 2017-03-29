@@ -11,6 +11,10 @@ V1.1, Updated 25 Mar.2017: DoctorPepper Notes
 *Travis C/I* Project Health -
 image:https://img.shields.io/travis/jnorthr/DoctorPepper.svg[Build Status (Travis CI), link=https://travis-ci.org/jnorthr/DoctorPepper]
 
+image:http://img.shields.io/badge/license-MIT-blue.svg?style=flat[MIT License, link=https://github.com/asciidoctor/atom-asciidoc-preview/blob/master/LICENSE.md]
+
+image:https://img.shields.io/hexpm/l/plug.svg[Hex.pm]
+
 ''''
 
 == Purpose
@@ -41,6 +45,9 @@ gradlew -t asciidoctor
 
 The *-t* option keeps gradle running in continuous mode so now any changes i make to any asciidoctor files are near-instantly
 translated for me.
+
+
+NOTE: If you don't have a *git* client https://git-scm.com/downloads[click here to install one]
 
 ''''
 
