@@ -5,8 +5,12 @@
 // from a second terminal session;
 // All output html is written to gradle project folder named build/docs
 // All input comes from the src/docs/asciidoc folder
+// Task walker creates a toc.adoc file (table of contents) AFTER the asciidoctor task writes the *.html files to /build/docs
 
-defaultTasks 'asciidoctor' 
+apply plugin: 'groovy'
+apply plugin: 'org.asciidoctor.convert'
+
+defaultTasks 'asciidoctor'   //,'walker' 
 
 buildscript {
     repositories {
@@ -15,15 +19,33 @@ buildscript {
 
     dependencies {
         classpath 'org.asciidoctor:asciidoctor-gradle-plugin:1.5.3'
+        classpath group: 'org.asciidoctor', name: 'asciidoctorj-pdf', version: '1.5.0-alpha.14' // to support backends=['pdf']
     }
 }
 
-apply plugin: 'org.asciidoctor.convert'
+
+// In this section you declare where to find the dependencies of your project
+repositories {
+    jcenter()
+}
+
+// In this section you declare the dependencies for your production and test code
+dependencies {
+    compile "org.codehaus.groovy:groovy-all:2.4.10"
+    runtime "org.codehaus.groovy:groovy-all:2.4.10"
+
+    // We use the awesome Spock testing and specification framework
+    testCompile 'org.spockframework:spock-core:1.0-groovy-2.4'
+    testCompile 'junit:junit:4.12'
+}
+
+println "Gradle projectDir=${projectDir}"
+
 
 asciidoctor {
   outputDir = file('build/docs')
   separateOutputDirs=false  
-  backends = ['html5','docbook']
+  backends = ['html5','pdf']	// if you don't want PDFs delete 'pdf'
   
   resources {
     from('src/resources/images') {}
@@ -37,6 +59,13 @@ asciidoctor {
                 idseparator         : '-'
                 
 } // end of asciidoctor
+
+// runs our main() method; first arg points to a local folder path name to read thru; 2nd arg is output folder for toc.adoc summaty file
+task(walker, dependsOn: 'classes', type: JavaExec) {
+	main = 'DocWalker'
+	classpath = sourceSets.main.runtimeClasspath
+	args "${projectDir}/build", "${projectDir}/src/docs/asciidoc"
+}
 
 task wrapper(type: Wrapper) {
     gradleVersion = '3.4' 

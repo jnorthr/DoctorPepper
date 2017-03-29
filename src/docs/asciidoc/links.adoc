@@ -1,6 +1,6 @@
 = More Internet Links
 jnorthr <james.northrop@orange.fr>
-V0.7, Updated 22 Mar.2017: Recent Finds Online for Later Reading
+V0.8, Updated 26 Mar.2017: Recent Online Finds for Later Reading
 include::_attrs.adoc[]
 :sectanchors:
 :sectlinks:
@@ -30,6 +30,7 @@ image::ss3.png[Ajax Daddy,400, link="http://www.betterprogramming.com/ajaxdaddy-
  * https://leanpub.com/awesomeasciidoctornotebook/read[Read Awesome Asciidoctor Notebook | Leanpub]
  * http://ditaa.sourceforge.net/[ditaa charts in a/d]
  * http://mrhaki.blogspot.fr/2015/04/awesome-asciidoctor-adding-custom.html[Awesome Asciidoctor: Adding Custom Content to Head and Footer - Messages from mrhaki]
+ * https://github.com/jnorthr/DoctorPepper[A live gradle continuous service to translate asciidoctor encoded files into useful html] - a gradle-based tool using *gradle -t asciidoctor* cmd line to run 24/7.
  
 === Strike-Thru Syntax
 

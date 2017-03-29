@@ -1,3 +1,4 @@
 +++
 <b>This is a sample include:: directive</b>
+<div>Used raw html in this sample</div>
 +++
