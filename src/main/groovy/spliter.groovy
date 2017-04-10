@@ -1,4 +1,15 @@
-sb = "="
+// parms: within folder y/n; folder depth:0-9; right-most value:filename;
+sb = ""
+def String[] ls = ["New.groovy","Old.groovy","DoctorPepper/src/docs/asciidoc/Walker.adoc", "DoctorPepper/src/docs/asciidoc/Finder.adoc", "DoctorPepper/src/Walker.groovy"] 
+public boolean finder(String g)
+{
+    def fs = System.getProperty("file.separator");
+    return ( g.indexOf(fs) > -1)?true:false;
+}
+
+//-----------------------------------
+
+sb = ""
 def gen(String key,int val, boolean yn,def st){
         if (yn)
         {
@@ -28,6 +39,19 @@ def gen(String key,int val, boolean yn,def st){
         };
 } // end of gen
 
+//--------------------------------------------------
+ls.each{e-> 
+    println "${e} file separator ? "+finder(e);
+    gen("World",0,true,e) 
+} // end of each
+
+println "+++++++++++++++++++++++++"
+println sb.toString()    
+println "+++++++++++++++++++++++++"
+sb=""
+println ""
+
+// -------------------------------------------------
 // r is prior file
 def r = "DoctorPepper/src/docs/asciidoc/Walker.adoc"
 println r;
@@ -36,8 +60,7 @@ println "number of r1 tokens="+r1.size()
 
 def sz = r1.size() - 1
 println "-----\nr1 folders=${sz}"
-
-sb = "="
+sb=""
 r1.eachWithIndex{x,ix-> 
     boolean b = (ix==sz)?true:false;
     gen(x,ix,b,r) 

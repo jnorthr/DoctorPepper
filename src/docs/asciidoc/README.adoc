@@ -9,7 +9,7 @@ V1.1, Updated 25 Mar.2017: DoctorPepper Notes
 == Status
 
 *Travis C/I* Project Health -
-image:https://img.shields.io/travis/jnorthr/DoctorPepper.svg[Build Status (Travis CI), link=https://travis-ci.org/jnorthr/DoctorPepper]  image:https://img.shields.io/hexpm/l/plug.svg[Apache License, link=https://github.com/jnorthr/DoctorPepper/blob/master/LICENSE]
+image:https://img.shields.io/travis/jnorthr/DoctorPepper.svg?style=plastic[Build Status (Travis CI), link=https://travis-ci.org/jnorthr/DoctorPepper]  image:https://img.shields.io/hexpm/l/plug.svg?style=plastic[Apache License, link=https://github.com/jnorthr/DoctorPepper/blob/master/LICENSE]
 
 ''''
 

@@ -5,6 +5,7 @@
 
 === /Users/jimnorthrop/Dropbox/Projects/DoctorPepper/build
 
+ * link:../docs/README.html[DoctorPepper README] - docs/README.html;  link:../docs/README.pdf[pdf]
  * link:../docs/groovydoc/DefaultPackage/DocWalker.html[DocWalker (DoctorPepper API)] - docs/groovydoc/DefaultPackage/DocWalker.html; 
  * link:../docs/groovydoc/DefaultPackage/package-frame.html[DefaultPackage] - docs/groovydoc/DefaultPackage/package-frame.html; 
  * link:../docs/groovydoc/DefaultPackage/package-summary.html[DefaultPackage (DoctorPepper API)] - docs/groovydoc/DefaultPackage/package-summary.html; 
@@ -16,6 +17,10 @@
  * link:../docs/groovydoc/index.html[Index (DoctorPepper API)] - docs/groovydoc/index.html; 
  * link:../docs/groovydoc/overview-frame.html[Overview (DoctorPepper API)] - docs/groovydoc/overview-frame.html; 
  * link:../docs/groovydoc/overview-summary.html[Overview (DoctorPepper API)] - docs/groovydoc/overview-summary.html; 
+ * link:../docs/links.html[More Internet Links] - docs/links.html;  link:../docs/links.pdf[pdf]
+ * link:../docs/sample.html[Sample Asciidoctor] - docs/sample.html;  link:../docs/sample.pdf[pdf]
+ * link:../docs/sampleinclude.html[Untitled] - docs/sampleinclude.html;  link:../docs/sampleinclude.pdf[pdf]
+ * link:../docs/toc.html[Folder Table of Contents] - docs/toc.html;  link:../docs/toc.pdf[pdf]
  * link:../reports/coverage/default/DocWalker$_closure1$_closure4.html[DocWalker._closure1._closure4] - reports/coverage/default/DocWalker$_closure1$_closure4.html; 
  * link:../reports/coverage/default/DocWalker$_closure1.html[DocWalker._closure1] - reports/coverage/default/DocWalker$_closure1.html; 
  * link:../reports/coverage/default/DocWalker$_run_closure2.html[DocWalker._run_closure2] - reports/coverage/default/DocWalker$_run_closure2.html; 
@@ -39,6 +44,6 @@
 
 ''''
 
-TIP: Found 31 files
+TIP: Found 36 files
 
 ''''
