@@ -3,47 +3,35 @@
 
 == Folder Location
 
-=== /Users/jimnorthrop/Dropbox/Projects/DoctorPepper/build
+=== C:\Users\Jim\Downloads\DoctorPepper/build
 
- * link:../docs/README.html[DoctorPepper README] - docs/README.html;  link:../docs/README.pdf[pdf]
- * link:../docs/groovydoc/DefaultPackage/DocWalker.html[DocWalker (DoctorPepper API)] - docs/groovydoc/DefaultPackage/DocWalker.html; 
- * link:../docs/groovydoc/DefaultPackage/package-frame.html[DefaultPackage] - docs/groovydoc/DefaultPackage/package-frame.html; 
- * link:../docs/groovydoc/DefaultPackage/package-summary.html[DefaultPackage (DoctorPepper API)] - docs/groovydoc/DefaultPackage/package-summary.html; 
- * link:../docs/groovydoc/DefaultPackage/spliter.html[spliter (DoctorPepper API)] - docs/groovydoc/DefaultPackage/spliter.html; 
- * link:../docs/groovydoc/allclasses-frame.html[All Classes] - docs/groovydoc/allclasses-frame.html; 
- * link:../docs/groovydoc/deprecated-list.html[Deprecated API (DoctorPepper API)] - docs/groovydoc/deprecated-list.html; 
- * link:../docs/groovydoc/help-doc.html[API Help (DoctorPepper API)] - docs/groovydoc/help-doc.html; 
- * link:../docs/groovydoc/index-all.html[Index (DoctorPepper API)] - docs/groovydoc/index-all.html; 
- * link:../docs/groovydoc/index.html[Index (DoctorPepper API)] - docs/groovydoc/index.html; 
- * link:../docs/groovydoc/overview-frame.html[Overview (DoctorPepper API)] - docs/groovydoc/overview-frame.html; 
- * link:../docs/groovydoc/overview-summary.html[Overview (DoctorPepper API)] - docs/groovydoc/overview-summary.html; 
- * link:../docs/links.html[More Internet Links] - docs/links.html;  link:../docs/links.pdf[pdf]
- * link:../docs/sample.html[Sample Asciidoctor] - docs/sample.html;  link:../docs/sample.pdf[pdf]
- * link:../docs/sampleinclude.html[Untitled] - docs/sampleinclude.html;  link:../docs/sampleinclude.pdf[pdf]
- * link:../docs/toc.html[Folder Table of Contents] - docs/toc.html;  link:../docs/toc.pdf[pdf]
- * link:../reports/coverage/default/DocWalker$_closure1$_closure4.html[DocWalker._closure1._closure4] - reports/coverage/default/DocWalker$_closure1$_closure4.html; 
- * link:../reports/coverage/default/DocWalker$_closure1.html[DocWalker._closure1] - reports/coverage/default/DocWalker$_closure1.html; 
- * link:../reports/coverage/default/DocWalker$_run_closure2.html[DocWalker._run_closure2] - reports/coverage/default/DocWalker$_run_closure2.html; 
- * link:../reports/coverage/default/DocWalker$_run_closure3.html[DocWalker._run_closure3] - reports/coverage/default/DocWalker$_run_closure3.html; 
- * link:../reports/coverage/default/DocWalker.groovy.html[DocWalker.groovy] - reports/coverage/default/DocWalker.groovy.html; 
- * link:../reports/coverage/default/DocWalker.html[DocWalker] - reports/coverage/default/DocWalker.html; 
- * link:../reports/coverage/default/index.html[default] - reports/coverage/default/index.html; 
- * link:../reports/coverage/default/index.source.html[default] - reports/coverage/default/index.source.html; 
- * link:../reports/coverage/default/spliter$_run_closure1.html[spliter._run_closure1] - reports/coverage/default/spliter$_run_closure1.html; 
- * link:../reports/coverage/default/spliter$_run_closure2.html[spliter._run_closure2] - reports/coverage/default/spliter$_run_closure2.html; 
- * link:../reports/coverage/default/spliter$_run_closure3.html[spliter._run_closure3] - reports/coverage/default/spliter$_run_closure3.html; 
- * link:../reports/coverage/default/spliter$_run_closure4.html[spliter._run_closure4] - reports/coverage/default/spliter$_run_closure4.html; 
- * link:../reports/coverage/default/spliter.groovy.html[spliter.groovy] - reports/coverage/default/spliter.groovy.html; 
- * link:../reports/coverage/default/spliter.html[spliter] - reports/coverage/default/spliter.html; 
- * link:../reports/coverage/index.html[DoctorPepper] - reports/coverage/index.html; 
- * link:../reports/coverage/jacoco-sessions.html[Sessions] - reports/coverage/jacoco-sessions.html; 
- * link:../reports/tests/test/classes/DocWalkerTest.html[Test results - Class DocWalkerTest] - reports/tests/test/classes/DocWalkerTest.html; 
- * link:../reports/tests/test/index.html[Test results - Test Summary] - reports/tests/test/index.html; 
- * link:../reports/tests/test/packages/default-package.html[Test results - Default package] - reports/tests/test/packages/default-package.html; 
- * link:../tmp/expandedArchives/org.jacoco.agent-0.7.8.jar_b9zw1dsi42e6gmm3erhf2s5u7/about.html[About] - tmp/expandedArchives/org.jacoco.agent-0.7.8.jar_b9zw1dsi42e6gmm3erhf2s5u7/about.html; 
+ * link:../docs\groovydoc\allclasses-frame.html[All Classes] - docs\groovydoc\allclasses-frame.html; 
+ * link:../docs\groovydoc\DefaultPackage\Cell.html[Cell (DoctorPepper API)] - docs\groovydoc\DefaultPackage\Cell.html; 
+ * link:../docs\groovydoc\DefaultPackage\DocWalker.html[DocWalker (DoctorPepper API)] - docs\groovydoc\DefaultPackage\DocWalker.html; 
+ * link:../docs\groovydoc\DefaultPackage\package-frame.html[DefaultPackage] - docs\groovydoc\DefaultPackage\package-frame.html; 
+ * link:../docs\groovydoc\DefaultPackage\package-summary.html[DefaultPackage (DoctorPepper API)] - docs\groovydoc\DefaultPackage\package-summary.html; 
+ * link:../docs\groovydoc\DefaultPackage\Split.html[Split (DoctorPepper API)] - docs\groovydoc\DefaultPackage\Split.html; 
+ * link:../docs\groovydoc\DefaultPackage\spliter.html[spliter (DoctorPepper API)] - docs\groovydoc\DefaultPackage\spliter.html; 
+ * link:../docs\groovydoc\DefaultPackage\Test2.html[Test2 (DoctorPepper API)] - docs\groovydoc\DefaultPackage\Test2.html; 
+ * link:../docs\groovydoc\deprecated-list.html[Deprecated API (DoctorPepper API)] - docs\groovydoc\deprecated-list.html; 
+ * link:../docs\groovydoc\help-doc.html[API Help (DoctorPepper API)] - docs\groovydoc\help-doc.html; 
+ * link:../docs\groovydoc\index-all.html[Index (DoctorPepper API)] - docs\groovydoc\index-all.html; 
+ * link:../docs\groovydoc\index.html[Index (DoctorPepper API)] - docs\groovydoc\index.html; 
+ * link:../docs\groovydoc\overview-frame.html[Overview (DoctorPepper API)] - docs\groovydoc\overview-frame.html; 
+ * link:../docs\groovydoc\overview-summary.html[Overview (DoctorPepper API)] - docs\groovydoc\overview-summary.html; 
+ * link:../docs\links.html[More Internet Links] - docs\links.html;  link:../docs\links.pdf[pdf]
+ * link:../docs\README.html[DoctorPepper README] - docs\README.html;  link:../docs\README.pdf[pdf]
+ * link:../docs\sample.html[Sample Asciidoctor] - docs\sample.html;  link:../docs\sample.pdf[pdf]
+ * link:../docs\sampleinclude.html[Untitled] - docs\sampleinclude.html;  link:../docs\sampleinclude.pdf[pdf]
+ * link:../docs\seu-as-code.html[SEU-AS-CODE] - docs\seu-as-code.html;  link:../docs\seu-as-code.pdf[pdf]
+ * link:../docs\toc.html[Folder Table of Contents] - docs\toc.html;  link:../docs\toc.pdf[pdf]
+ * link:../reports\tests\test\classes\DocWalkerTest.html[Test results - Class DocWalkerTest] - reports\tests\test\classes\DocWalkerTest.html; 
+ * link:../reports\tests\test\index.html[Test results - Test Summary] - reports\tests\test\index.html; 
+ * link:../reports\tests\test\packages\default-package.html[Test results - Default package] - reports\tests\test\packages\default-package.html; 
+ * link:../tmp\expandedArchives\org.jacoco.agent-0.7.8.jar_261c0zxi24exhsdw6ejg8rpvm\about.html[About] - tmp\expandedArchives\org.jacoco.agent-0.7.8.jar_261c0zxi24exhsdw6ejg8rpvm\about.html; 
 
 ''''
 
-TIP: Found 36 files
+TIP: Found 24 files
 
 ''''

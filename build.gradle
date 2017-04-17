@@ -11,7 +11,7 @@ apply plugin: 'groovy'
 apply plugin: 'org.asciidoctor.convert'
 apply plugin: "jacoco"
 
-defaultTasks 'asciidoctor'   //,'walker' 
+defaultTasks 'asciidoctor'  ,'walker' 
 
 buildscript {
     repositories {

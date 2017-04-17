@@ -7,6 +7,7 @@ include::_attrs.adoc[]
 :toc: right
 :icons: font
 :imagesdir: ./images
+:allow-uri-read:
 
 == Ajax
 

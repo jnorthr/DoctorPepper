@@ -1,17 +1,16 @@
 = DoctorPepper README
 jnorthr <james.northrop@orange.fr>
-V1.1, Updated 25 Mar.2017: DoctorPepper Notes
+V1.1, Updated 17 Apr.2017: DoctorPepper Notes
 :sectanchors:
 :sectlinks:
 :icons: font
 :imagesdir: ./images
+:allow-uri-read:
 
 == Status
 
 *Travis C/I* Project Health -
 image:https://img.shields.io/travis/jnorthr/DoctorPepper.svg?style=plastic[Build Status (Travis CI), link=https://travis-ci.org/jnorthr/DoctorPepper]  image:https://img.shields.io/hexpm/l/plug.svg?style=plastic[Apache License, link=https://github.com/jnorthr/DoctorPepper/blob/master/LICENSE]
-
-''''
 
 == Purpose
 
@@ -19,7 +18,6 @@ This is an open-source tool to continuously translate any asciidoctor file that 
 
 image::divider3.png[align=center, title-align=center]
 
-''''
 
 == DropBox or Google Drive Enabled ?
 

@@ -175,7 +175,7 @@ public class DocWalker
 
    /** 
     * See if toc.adoc date is not too recent else gradle -t creates a loop, 
-    * so wait at least 50 seconds before writing a new table of contents: toc.adoc file
+    * so wait at least 120 seconds before writing a new table of contents: toc.adoc file
     * that becomes toc.html in build/docs folder on next run of asciidoctor gradle task
     *
      @return boolean indicating true if walker should scan input folder and write new toc.adoc.
@@ -184,13 +184,13 @@ public class DocWalker
     {
     	boolean yes = true;
 
-		if ( new File(ofn).exists() )
-		{
-			Path filePath = new File(ofn).toPath();			
-    	    BasicFileAttributes attributes = Files.readAttributes(filePath, BasicFileAttributes.class);
-			def diff = System.currentTimeMillis() - attributes.lastAccessTime().to(TimeUnit.MILLISECONDS); // .creationTime()  
-            yes = (diff > 50000) ?true:false;
-            println "... milleseconds diff since last toc created =${diff} so do we build a new toc? ="+yes;
+	if ( new File(ofn).exists() )
+	{
+		Path filePath = new File(ofn).toPath();			
+    	    	BasicFileAttributes attributes = Files.readAttributes(filePath, BasicFileAttributes.class);
+		def diff = System.currentTimeMillis() - attributes.lastAccessTime().to(TimeUnit.MILLISECONDS); // .creationTime()  
+            	yes = (diff > 120000) ?true:false;
+            	println "... milleseconds diff since last toc created =${diff} so do we build a new toc? ="+yes;
         } // end of if
         
         return yes;

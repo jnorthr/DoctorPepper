@@ -1,0 +1,52 @@
+= SEU-AS-CODE
+M.-Leander Reimer <@lreimer>
+:icons: font
+:allow-uri-read:
+
+''''
+
+TIP: https://github.com/seu-as-code/seu-as-code.plugins[GitHub Account]
+
+''''
+
+[cols="5*^", options="header",width=70]
+|===
+
+| https://travis-ci.org/seu-as-code/seu-as-code.plugins[Travis CI] | https://coveralls.io/github/seu-as-code/seu-as-code.plugins?branch=master[Coverage Status] | https://waffle.io/seu-as-code/seu-as-code.plugins[Stories in Ready] | https://waffle.io/seu-as-code/seu-as-code.plugins[Stories in Progress] | https://github.com/seu-as-code/seu-as-code.plugins/blob/master/LICENSE[Apache License 2]
+| image:https://travis-ci.org/seu-as-code/seu-as-code.plugins.svg?branch=master[Travis CI,link="https://travis-ci.org/seu-as-code/seu-as-code.plugins"] | image:https://coveralls.io/repos/seu-as-code/seu-as-code.plugins/badge.svg?branch=master&service=github&ts=1[link="https://coveralls.io/github/seu-as-code/seu-as-code.plugins?branch=master"] | image:https://badge.waffle.io/seu-as-code/seu-as-code.plugins.png?label=ready&title=Ready[link="https://waffle.io/seu-as-code/seu-as-code.plugins"] | image:https://badge.waffle.io/seu-as-code/seu-as-code.plugins.png?label=in%20progress&title=In%20Progress[link="https://waffle.io/seu-as-code/seu-as-code.plugins"]  | image:http://img.shields.io/badge/license-ASF2-blue.svg[link="https://github.com/seu-as-code/seu-as-code.plugins/blob/master/LICENSE"]
+
+|===
+ 
+
+
+''''
+
+== SEU-as-code Plugins
+
+  * SEU: German for software development environment (Software Entwicklungs-Umgebung)
+  * as-code: to be able to configure, build and program the SEU as source code
+  
+The SEU-as-code plugins are plain Gradle plugins for lightweight developer provisioning using Gradle. The plugins provide
+convenient configuration conventions and common SEU tasks for your daily work as a developer.
+
+== Development
+
+For details on building and developing SEU-as-code plugins, please see the https://github.com/seu-as-code/seu-as-code.plugins/wiki/Development[Wiki].
+
+== Contributing
+
+Is there anything missing? Do you have ideas for new features or improvements? 
+
+You are highly welcome to contribute your improvements, plugins or packages to the SEU-as-code projects. 
+
+All you have to do is to fork this repository, improve the code and issue a pull request. You can also have a look at our https://github.com/seu-as-code/seu-as-code.plugins/wiki/Contributor-Guide[Contributor Guide]
+
+== Maintainer
+
+M.-Leander Reimer (@lreimer)
+
+## License
+
+This software is provided under the Apache License, Version 2.0 license.
+
+See the `LICENSE` file for details.

@@ -6,6 +6,7 @@ include::_attrs.adoc[]
 :sectlinks:
 :icons: font
 :imagesdir: ./images
+:allow-uri-read:
 
 == Some Sample Title
 
