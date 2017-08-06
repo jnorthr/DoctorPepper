@@ -1,6 +1,6 @@
-= Sample Asciidoctor
+= Sample Asciidoctor V1.3
 jnorthr <james.northrop@orange.fr>
-V1.2, Updated 25 Mar.2017: DoctorPepper Notes
+V1.3, Updated 4 Aug.2017: DoctorPepper Notes
 include::_attrs.adoc[]
 :sectanchors:
 :sectlinks:
