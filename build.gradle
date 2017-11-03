@@ -79,5 +79,5 @@ jacocoTestReport {
 }
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '4.0.2' 
+    gradleVersion = '4.2' 
 }

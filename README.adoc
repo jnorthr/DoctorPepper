@@ -4,6 +4,7 @@ V1.1, Updated 25 Mar.2017: DoctorPepper Notes
 :sectanchors:
 :sectlinks:
 :icons: font
+:allow-uri-read:
 :imagesdir: ./images
 
 == Status
@@ -81,7 +82,7 @@ and toggled over to my window with the browser open to this *sample.html* page a
 
 NOTE: Near-instant Translation
 
-Then i only click browser refresh to see the new view and this saves me the bother of copying 
+Then i only click browser refresh to see the new view and this saves me the bother of copying
 everything up to my CloudFoundry target. *Nice ;-)*
 
 TIP: Just copying new *.adoc* files into *src/docs/asciidoc* will appear in the output folder too !
@@ -103,7 +104,7 @@ the next cycle of our *asciidoctor* task included all my *groovydoc*, *javadoc*,
 
 Since i've added http://rants.broonix.ca/java-code-coverage-with-gradle-and-jacoco-2/[*Jacoco*] code coverage tool, to see a full-blown example of `walker` in action try this:
 
-.Generate a Bunch of HTML, Writing Table of Contents for It and Convert to HTML 
+.Generate a Bunch of HTML, Writing Table of Contents for It and Convert to HTML
 [source,bash]
 ----
 gradlew build  jacocoTestReport groovydoc test walker asciidoctor
@@ -114,7 +115,7 @@ After this, there should be a fully-loaded `/Users/jimnorthrop/Dropbox/Projects/
 === `Walker` Task in Gradle
 
 Several ways can be used to execute *Walker*. To cause the automatic generation of a _table of contents_, have included a
-`walker` task. Run it using *gradle* like this: 
+`walker` task. Run it using *gradle* like this:
 
 .Generating a Table Of Contents as a One-Time Event
 [source,bash]
@@ -147,15 +148,14 @@ So added some timimg logic in `walker` to only produce a new *toc.adoc* file if 
 == PDF Generation
 
 As it was so easy to do, have caused the `asciidoctor` task to produce a *PDF* file for each *.html* file generated. To improve performance
-or if *PDF* files are not needed, change the closure in *gradle* like this: 
+or if *PDF* files are not needed, change the closure in *gradle* like this:
 
 .Asciidoctor Closure in Gradle
 [source,gradle]
 ----
   backends = ['html5','pdf']	// if you don't want PDFs delete 'pdf'
-----  
+----
 
 WARNING: Enjoy *;-D*
 
 ''''
-  
