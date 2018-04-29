@@ -32,8 +32,8 @@ repositories {
 
 // In this section you declare the dependencies for your production and test code
 dependencies {
-    compile "org.codehaus.groovy:groovy-all:2.4.12"
-    runtime "org.codehaus.groovy:groovy-all:2.4.12"
+    compile "org.codehaus.groovy:groovy-all:2.4.14"
+    runtime "org.codehaus.groovy:groovy-all:2.4.14"
 
     // We use the awesome Spock testing and specification framework
     testCompile 'org.spockframework:spock-core:1.0-groovy-2.4'
@@ -79,5 +79,5 @@ jacocoTestReport {
 }
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '4.2' 
+    gradleVersion = '4.7' 
 }
