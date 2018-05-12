@@ -1,5 +1,6 @@
 = Folder Table of Contents
 :icons: font
+:allow-uri-read: 
 
 == Folder Location
 

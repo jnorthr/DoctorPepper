@@ -1,10 +1,10 @@
 = DoctorPepper README
 jnorthr <james.northrop@orange.fr>
-V1.1, Updated 25 Mar.2017: DoctorPepper Notes
+V1.2, Updated 10 May.2017: DoctorPepper Notes
 :sectanchors:
 :sectlinks:
 :icons: font
-:allow-uri-read:
+:allow-uri-read: true
 :imagesdir: ./images
 
 == Status

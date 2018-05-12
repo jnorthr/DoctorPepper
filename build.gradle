@@ -19,8 +19,8 @@ buildscript {
     }
 
     dependencies {
-        classpath 'org.asciidoctor:asciidoctor-gradle-plugin:1.5.3'
-        classpath group: 'org.asciidoctor', name: 'asciidoctorj-pdf', version: '1.5.0-alpha.14' // to support backends=['pdf']
+        classpath 'org.asciidoctor:asciidoctor-gradle-plugin:1.5.7'
+        classpath group: 'org.asciidoctor', name: 'asciidoctorj-pdf', version: '1.5.0-alpha.16' // to support backends=['pdf']
     }
 }
 
@@ -44,17 +44,18 @@ println "Gradle projectDir=${projectDir}"
 
 
 asciidoctor {
-  outputDir = file('build/docs')
-  separateOutputDirs=false  
-  backends = ['html5','pdf']	// if you don't want PDFs delete 'pdf'
+	sourceDir = projectDir     //file("${projectDir}")
+	sourceDir = file("${projectDir}/src/docs")
+  	outputDir = file('build/docs')
+  	separateOutputDirs=false  
+  	backends = ['html5','pdf']	// if you don't want PDFs delete 'pdf'
   
-  resources {
-    from('src/resources/images') {}
-    into './images'
-  }
+	resources {
+    	from('src/resources/images') {}
+    	into 'asciidoc/images'
+  	}
 
-
-  attributes 'source-highlighter': 'coderay',
+	attributes 'source-highlighter': 'coderay',
                 toc                 : 'right',
                 idprefix            : '',
                 idseparator         : '-'

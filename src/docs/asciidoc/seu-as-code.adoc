@@ -1,7 +1,7 @@
 = SEU-AS-CODE
 M.-Leander Reimer <@lreimer>
 :icons: font
-:allow-uri-read:
+:allow-uri-read: true
 
 ''''
 
