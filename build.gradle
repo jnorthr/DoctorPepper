@@ -32,8 +32,8 @@ repositories {
 
 // In this section you declare the dependencies for your production and test code
 dependencies {
-    compile "org.codehaus.groovy:groovy-all:2.4.14"
-    runtime "org.codehaus.groovy:groovy-all:2.4.14"
+    compile "org.codehaus.groovy:groovy-all:2.5.6"
+    runtime "org.codehaus.groovy:groovy-all:2.5.6"
 
     // We use the awesome Spock testing and specification framework
     testCompile 'org.spockframework:spock-core:1.0-groovy-2.4'
@@ -75,10 +75,12 @@ jacocoTestReport {
     reports {
         xml.enabled true
         csv.enabled false
-        html.destination "${buildDir}/reports/coverage"
+        //html.destination "${buildDir}/reports/coverage"
     }
 }
 
+/*
 task wrapper(type: Wrapper) {
-    gradleVersion = '4.7' 
+    gradleVersion = '5.3' 
 }
+*/
