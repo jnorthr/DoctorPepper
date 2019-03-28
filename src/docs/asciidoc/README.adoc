@@ -1,6 +1,6 @@
 = DoctorPepper README
 jnorthr <james.northrop@orange.fr>
-V1.1, Updated 17 Apr.2017: DoctorPepper Notes
+V1.1, Updated 27 March, 2019: DoctorPepper Notes
 :sectanchors:
 :sectlinks:
 :icons: font
