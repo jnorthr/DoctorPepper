@@ -7,7 +7,7 @@
 
  * link:../docs/asciidoc/README.html[DoctorPepper README] - docs/asciidoc/README.html;  link:../docs/asciidoc/README.pdf[pdf]
  * link:../docs/asciidoc/links.html[More Internet Links] - docs/asciidoc/links.html;  link:../docs/asciidoc/links.pdf[pdf]
- * link:../docs/asciidoc/sample.html[Sample Asciidoctor V1.3] - docs/asciidoc/sample.html;  link:../docs/asciidoc/sample.pdf[pdf]
+ * link:../docs/asciidoc/sample.html[Sample Asciidoctor V1.4] - docs/asciidoc/sample.html;  link:../docs/asciidoc/sample.pdf[pdf]
  * link:../docs/asciidoc/sampleinclude.html[Untitled] - docs/asciidoc/sampleinclude.html;  link:../docs/asciidoc/sampleinclude.pdf[pdf]
  * link:../docs/asciidoc/seu-as-code.html[SEU-AS-CODE] - docs/asciidoc/seu-as-code.html;  link:../docs/asciidoc/seu-as-code.pdf[pdf]
  * link:../docs/asciidoc/toc.html[Folder Table of Contents] - docs/asciidoc/toc.html;  link:../docs/asciidoc/toc.pdf[pdf]

@@ -1,6 +1,6 @@
-= Sample Asciidoctor V1.3
+= Sample Asciidoctor V1.4
 jnorthr <james.northrop@orange.fr>
-V1.3, Updated 4 Aug.2017: DoctorPepper Notes
+V1.4, Updated 27 March,2019: DoctorPepper Notes
 include::_attrs.adoc[]
 :sectanchors:
 :sectlinks:
@@ -77,7 +77,7 @@ NOTE: Near-instant Translation
 Then i only click browser refresh to see the new view and this saves me the bother of copying 
 everything up to my CloudFoundry target. *Nice ;-)*
 
-TIP: Just coping new *.adoc* files into *src/docs/asciidoc* will appear in the output folder too !
+TIP: Just copying new *.adoc* files into *src/docs/asciidoc* will appear in the output folder too !
 
 ''''
 
